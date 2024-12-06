@@ -1,0 +1,162 @@
+/* Estilo para a página de Cadastro de Livro */
+div {
+    padding: 20px;
+    background-color: #f4f4f9;
+    box-sizing: border-box;
+}
+
+/* Estilo do título principal */
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Estilo do campo de busca */
+label {
+    font-size: 1rem;
+    color: #555;
+}
+
+input[type="text"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: #6e7cfc;
+    outline: none;
+}
+
+/* Botão de busca */
+button {
+    padding: 10px 15px;
+    font-size: 1rem;
+    background-color: #6e7cfc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #5a6fe1;
+}
+
+/* Estilo da lista de livros encontrados */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+/* Botão de selecionar livro */
+button {
+    background-color: #4caf50; /* Cor verde para o botão de selecionar livro */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo para as resenhas */
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-top: 30px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+li {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+strong {
+    color: #333;
+}
+
+em {
+    color: #888;
+}
+
+/* Botão para gerar PDF */
+button {
+    padding: 12px 15px;
+    font-size: 1.1rem;
+    background-color: #6e7cfc; /* Cor de fundo suave */
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Espaço superior */
+}
+
+/* Botão Gerar PDF */
+button:hover {
+    background-color: #5a6fe1; /* Cor de fundo ao passar o mouse */
+}
+
+/* Container para os botões das resenhas */
+.resenha-buttons-container {
+    display: flex;
+    gap: 10px; /* Espaço entre os botões */
+    flex-wrap: wrap; /* Permite que os botões quebrem linha, se necessário */
+    justify-content: flex-start; /* Alinha os botões à esquerda */
+    margin-top: 20px; /* Distância superior */
+    align-items: flex-start; /* Alinha os botões à esquerda verticalmente */
+}
+
+/* Estilo dos botões das resenhas */
+.resenha-buttons-container button {
+    padding: 6px 10px; /* Botões menores em altura e comprimento */
+    font-size: 0.9rem; /* Tamanho de fonte menor */
+    background-color: #6e7cfc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; /* Largura ajustada automaticamente conforme o conteúdo */
+    max-width: 120px; /* Limita o comprimento máximo do botão */
+    text-align: center; /* Centraliza o texto dentro do botão */
+}
+
+.resenha-buttons-container button:hover {
+    background-color: #5a6fe1;
+}
+
+/* Estilo para os botões de livros */
+button.livro-button {
+    padding: 6px 10px; /* Botões menores em altura e comprimento */
+    font-size: 0.9rem; /* Tamanho de fonte menor */
+    background-color: #6e7cfc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: auto; /* Largura ajustada automaticamente conforme o conteúdo */
+    max-width: 300px; /* Limita o comprimento máximo do botão */
+    text-align: center; /* Centraliza o texto dentro do botão */
+    margin-bottom: 10px; /* Espaço entre os botões */
+}
+
+button.livro-button:hover {
+    background-color: #5a6fe1;
+}

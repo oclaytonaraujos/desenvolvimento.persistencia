@@ -1,0 +1,120 @@
+/* Estilo para a página de Inserir Resenha */
+.inserir-resenha {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinha horizontalmente no centro */
+    justify-content: center; /* Alinha verticalmente no centro */
+    padding: 20px;
+    background-color: #f4f4f9;
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    width: 100%; /* Ocupa 100% da largura da tela */
+    box-sizing: border-box; /* Inclui padding e bordas no tamanho total */
+}
+
+/* Título da página */
+.inserir-resenha h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Estilo do Formulário */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Estilo dos campos de input */
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input:focus,
+textarea:focus {
+    border-color: #6e7cfc;
+    outline: none;
+}
+
+/* Estilo da área de texto */
+textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+/* Estilo para o container dos botões */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adiciona o espaço entre os botões */
+}
+
+/* Estilo dos botões */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #6e7cfc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #5a6fe1;
+}
+
+/* Estilo da mensagem de sucesso ou erro */
+p {
+    font-size: 1rem;
+    margin-top: 20px;
+    color: #4caf50;
+}
+
+p.error {
+    color: #f44336;
+}
+
+/* Estilo para o botão de voltar ao dashboard */
+.back-to-dashboard {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #6e7cfc; /* Cor de fundo suave */
+    color: #000000; /* Texto escuro */
+    border: 1px solid #ccc; /* Borda discreta */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px; /* Espaço superior */
+  }
+  
+  .back-to-dashboard:hover {
+    background-color: #5a6fe1; /* Cor de fundo ao passar o mouse */
+  }
+  

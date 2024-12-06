@@ -1,0 +1,115 @@
+/* Estilo geral da página de Lista de Livros */
+.lista-livros-container {
+    padding: 20px;
+    background-color: #f4f4f9;
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .lista-livros-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Barra de pesquisa da página de lista */
+  .lista-livros-container .search-input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .lista-livros-container .search-input:focus {
+    border-color: #6e7cfc;
+    outline: none;
+  }
+  
+  /* Tabela de livros */
+  .lista-livros-container .livros-table {
+    width: 100%;
+    max-width: 800px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .lista-livros-container .livros-table th,
+  .lista-livros-container .livros-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .lista-livros-container .livros-table th {
+    background-color: #6e7cfc;
+    color: white;
+  }
+  
+  .lista-livros-container .livros-table td {
+    font-size: 1rem;
+  }
+  
+  .lista-livros-container .livros-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Estilo dos botões na página de lista de livros */
+  .lista-livros-container .action-button {
+    padding: 8px 16px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+  }
+  
+  .lista-livros-container .action-button:hover {
+    opacity: 0.8;
+  }
+  
+  .lista-livros-container .action-button:focus {
+    outline: none;
+  }
+  
+  /* Estilo do botão Editar */
+  .lista-livros-container .edit-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .lista-livros-container .edit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Estilo do botão Excluir */
+  .lista-livros-container .delete-button {
+    background-color: red;
+    color: white;
+  }
+  
+  .lista-livros-container .delete-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  /* Estilo para o botão de voltar ao Dashboard */
+  .lista-livros-container .back-button {
+    background-color: #6e7cfc;
+    color: white;
+    padding: 12px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  .lista-livros-container .back-button:hover {
+    background-color: #5a6fe1;
+  }
+  

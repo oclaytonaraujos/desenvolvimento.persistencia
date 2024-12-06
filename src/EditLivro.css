@@ -1,0 +1,103 @@
+/* Estilos para a página de Editar Livro */
+.edit-livro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f4f4f9;
+    height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .edit-livro-container h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Estilos para o formulário de edição */
+  .edit-livro-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; /* Largura máxima do formulário */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+  }
+  
+  .edit-livro-form-group {
+    margin-bottom: 15px;
+  }
+  
+  .edit-livro-form-group label {
+    font-size: 1rem;
+    margin-bottom: 5px;
+    color: #555;
+  }
+  
+  .edit-livro-input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .edit-livro-input:focus {
+    border-color: #6e7cfc;
+    outline: none;
+  }
+  
+  /* Estilos para os botões */
+  .edit-livro-buttons {
+    margin-top: 20px;
+  }
+  
+  .edit-livro-submit-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #6e7cfc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-livro-submit-button:hover {
+    background-color: #5a6fe1;
+  }
+  
+  /* Estilo para o botão de voltar */
+  .edit-livro-back {
+    margin-top: 20px;
+  }
+  
+  .edit-livro-back-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1.1rem;
+    background-color: #ccc;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .edit-livro-back-button:hover {
+    background-color: #b3b3b3;
+  }
+  
+  .edit-livro-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column; /* Organiza os botões em uma coluna */
+    gap: 10px; /* Espaço de 10px entre os botões */
+  }
