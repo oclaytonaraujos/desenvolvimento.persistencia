@@ -104,10 +104,10 @@ function Dashboard() {
       {showResenhasSubMenu && (
         <div className="submenu">
           <button className="submenu-button" onClick={handleResenhaClick}>
-            CADASTRAR ANOTAÇÃO
+            CADASTRAR RESENHAS
           </button>
           <button className="submenu-button" onClick={handleResenhaListaClick}>
-            CONSULTAR ANOTAÇÕES
+            CONSULTAR RESENHAS
           </button>
         </div>
       )}
